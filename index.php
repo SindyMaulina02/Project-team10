@@ -7,126 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Game Store</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="
+    sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
     <nav id="home">
         <div class="container">
             <h1><a href="#home">Mobile Game Store</a></h1>
-
+              <div></div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#tentang">Check invoice</a></li>
+                <li><a href="#tentang">Produk</a></li>
                 <li><a href="#pendidikan">Join reseller</a></li>
                 <li><a href="#hoby">Join comunitas</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <button class="btn-login"><a href="#tentang">COME ON, FOLLOW ME!</a></button>
+                <button class="btn-login"><a href="#tentang">Login</a></button>
             </ul>
         </div>
     </nav>
+    <section id="home">
     <div class="container_section">
         <section id="#home" class="image_2">
-            <img src="fotoprofile.JPG" alt="">
-            <h1>SEKOLAH ALAM</h1>
-            <p>Sekolah Alam Cendrawasih</p>
-            <h4>Learning Fun For Us</h4>
-            <button class="btn-come"><a href="#tentang">COME ON, FOLLOW ME!</a></button>
-        </section>
+            
     </div>
+</section>
+
+<section id="tentang">
     <div class="tentang">
-        <section id="tentang">
-            <div class="container_tentang">
-                <div class="tentang_3">
-                    <h1>Sekolah Alam Cendrawasih</h1>
-                    <p>Hello everyone! Kenalin aku Melani Isnaini, kalian bisa panggil aku Mel atau Melani. Aku
-                        dilahirkan
-                        pada tanggal 02 Mei 2004 sekaligus dibesarkan di Kota Hijau yaitu Kota Cimahi, tepatnya di Kota
-                        Cimahi Utara, Kecamatan Cibabat. Hobiku hanya mendengarkan lagu, yaa selain itu menggambar jika
-                        aku
-                        ada waktu luang atau sedang suntuk. Oh iyaa aku juga suka nonton film, terutama genre film
-                        horror
-                        dan goreee. Apa lagi yaaa??? Bingung… ah iyaa riwayat pendidikan aku yaa, pertama SDN Cibabat
-                        Mandiri 5, lalu SMPN 10 Cimahi, terakhir SMAN 3 Cimahi. Lanjuttt, sekarang aku melanjutkan
-                        pendidikanku di Universitas Logistik dan Bisnis Internasional prodi Teknik Informatika D4. Ahh
-                        cape
-                        juga ya aku ngejelasin segini, padahal ga terlalu panjang… okay, selebihnya bisa diliat di slide
-                        berikutnyaa! :3</p>
-                </div>
-                <div class="image_12">
-                    <img src="IMG_1520.HEIC" alt="">
-                </div>
-            </div>
-        </section>
-
-    </div>
-    <div class="extraculliculer">
-        <section id="hobi">
-            <div class="kolom">
-                <div class="deskripsi">
-                    <h1>HOBI</h1>
-                </div>
-                <div class="ukm-list">
-                    <div class="kartu-ukm">
-                        <img src="WhatsApp Image 2022-10-19 at 23.57.49.jpeg" alt="">
-                        <p>drawing</p>
-                    </div>
-                    <div class="kartu-ukm">
-                        <img src="WhatsApp Image 2022-10-19 at 23.57.48.jpeg" alt="">
-                        <p>music</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </section>
-
-    </div>
-    <div class="study">
-        <section id="pendidikan">
-            <div class="pendidikan">
-                <div class="pendidikan_deskripsi">
-                    <h1>PENDIDIKAN</h1>
-                </div>
-                <div class="pendidikan_list">
-                    <div class="kuliah_list">
-                        <p>SD NEGERI CIBABAT MANDIRI 5 adalah salah satu satuan pendidikan dengan jenjang SD di Cibabat,
-                            Kec. Cimahi Utara, Kota Cimahi, Jawa Barat. Dalam menjalankan kegiatannya, SD NEGERI CIBABAT
-                            MANDIRI 5 berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.</p>
-                        <img src="WhatsApp Image 2022-10-19 at 23.57.44.jpeg" alt="">
-                    </div>
-                    <div class="kuliah_list">
-                        <p>SMP NEGERI 10 CIMAHI adalah salah satu satuan pendidikan dengan jenjang SMP di Cibabat, Kec.
-                            Cimahi Utara, Kota Cimahi, Jawa Barat. Dalam menjalankan kegiatannya, SMP NEGERI 10 CIMAHI
-                            berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.</p>
-                        <img src="WhatsApp Image 2022-10-19 at 23.57.42.jpeg" alt="">
-                    </div>
-                    <div class="kuliah_list">
-                        <p>SMAN 3 Cimahi adalah sekolah negeri dengan akreditasi A yang terletak di Jalan Pesantren No.
-                            161, Kelurahan Cibabat, Kecamatan Cimahi Utara, Kota Cimahi yang sekarang dikepalai oleh
-                            Kepala Sekolah Bapak Drs. H. Yayat Supriyat, M.M.Pd.</p>
-                        <img src="WhatsApp Image 2022-10-19 at 23.57.45 (1).jpeg" alt="">
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-    </div>
-<div id="contact">
-        <div class="wrapper">
-            <div class="footer">
-                <div class="footer-section">
-                    <h3>Contact Me!</h3>
-                    <p>Email:<a href="">melanisnaini@gmail.com</a></p>
-                    <p>WhatsApp : 085864434470</p>
-
-                </div>
-
-            </div>
-
+    <div class="container text-center">
+        
+        <div class="link">
+            <a href="#harga-ff">
+            <h2>Game popular<h2>
+            <div class="produk">
+        <div class="row row-cols-auto">
+          <div class="col"><img src="img/ff.png" alt=""><div class="judul-produk">Free Fire</div></div>
+          <div class="col"><img src="img/images/pubgm.jpg" alt=""><div class="judul-produk">Free Fire</div></div> 
+          <div class="col"><img src="img/images/valorant.jpg" alt=""><div class="judul-produk">Free Fire</div></div> 
+          <div class="col"><img src="img/images/mlbb.jpg" alt=""><div class="judul-produk">Free Fire</div></div>
+          <div class="col"><img src="img/images/higgs_domino.jpg" alt=""><div class="judul-produk">Free Fire</div></div> 
+          <div class="col"><img src="img/images/higgs_domino.jpg" alt=""><div class="judul-produk">Free Fire</div></div> 
+          
+        
         </div>
+    </div>   
+        <div class="overlay" id="harga-ff">
 
+            <div class="popup">
+                <h2>HARGA FREE FIRE</h2>
+                <a class="close" href="#populer">&times;</a>
+                <br>
+                <div class="content">
+                    70 Diamonds  : 
+                    <br>    
+                    <span class="harga">Rp 10.000</span>
+                    <br>
+                    140 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 20.000</span>
+                    <br>
+                    210 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 30.000</span>
+                    <br>
+                    280 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 40.000</span>
+                    <br>
+                    355 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 50.000</span>
+                    <br>
+                    500 Diamond  : 
+                    <br>
+                    <span class="harga">Rp 70.000</span>
+                    <br>
+                    720 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 100.000</span>
+                    <br>
+                    1000 Diamonds : 
+                    <br>
+                    <span class="harga">Rp 130.000</span>
+                    <br>
+                    M. Mingguan  : 
+                    <br>
+                    <span class="harga">Rp 30.000</span>
+                    <br>
+                    M. Bulanan   : 
+                    <br>
+                    <span class="harga">Rp 150.000</span>
+                    <br>
+                    <a class="pesan" href="https://wa.me/6282132873886" 
+                    target="_blank" 
+                    rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <h3>Mobile Game Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>About</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+</div>
+</section>
+      </div>
+            </div>
+        </div>
     </div>
 
 </body>
