@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section id="tentang">
+<div id="contact">
     <div class="tentang">
     <div class="container text-center">
         
@@ -103,7 +103,9 @@
                     <a class="pesan" href="https://wa.me/6282132873886" 
                     target="_blank" 
                     rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
-                </div>
+                    </div>
+                    </div>
+            
             </div>
         </div>
         <div id="contact">
