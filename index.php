@@ -20,9 +20,9 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
-                <li><a href="#pendidikan">Join reseller</a></li>
-                <li><a href="#hoby">Join comunitas</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="joinreseller">Join reseller</a></li>
+                <li><a href="#joincomunitas">Join comunitas</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
                 <button class="btn-login"><a href="#tentang">Login</a></button>
             </ul>
         </div>
