@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Game Store</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/landingpage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="
     sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -23,7 +23,7 @@
                 <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
                 <li><a href="#joincomunitas">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
-                <button class="btn-login"><a href="#tentang">Login</a></button>
+                <button class="btn-login"><a href="login/login.php">Login</a></button>
             </ul>
         </div>
     </nav>
@@ -43,22 +43,22 @@
                         <h2>Game popular<h2>
                                 <div class="produk">
                                     <div class="row row-cols-auto">
-                                        <div class="col"><img src="img/ff.png" alt="">
+                                        <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="img/pubgm.jpg" alt="">
+                                        <div class="col"><img src="assets/images/game//pubgm.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="img/valorant.jpg" alt="">
+                                        <div class="col"><img src="assets/images/game//valorant.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="img/aov.jpg" alt="">
+                                        <div class="col"><img src="assets/images/game//aov.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="img/GenshinImpact.jpg" alt="">
+                                        <div class="col"><img src="assets/images/game//GenshinImpact.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="img/higgs_domino.jpg" alt="">
+                                        <div class="col"><img src="assets/images/game//higgs_domino.jpg" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
 

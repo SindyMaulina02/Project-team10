@@ -89,7 +89,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-image: url(img/game.jpg);
+    background-image: url(../images/game/game.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
