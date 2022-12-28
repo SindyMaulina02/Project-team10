@@ -42,13 +42,12 @@ function regis($data)
                 alert('Username sudah terdaftar')    
             </script>";
         return false;
-    }  elseif (mysqli_fetch_assoc($result2)) {
+    } elseif (mysqli_fetch_assoc($result2)) {
         echo "<script>
                 alert('Email sudah terdaftar')    
             </script>";
         return false;
-        
-    }
+    }  
 
 
 
@@ -59,12 +58,31 @@ function regis($data)
     mysqli_query($connect, "INSERT INTO users VALUES ('', '$username', '$password', '$gender', '$email')");
 
     return mysqli_affected_rows($connect);
-
-    
-
-
-
-
-
 }
 
+function tambah($data) {
+    global $connect;
+
+    $game = $data["game"];
+    $username_game = $data["username_game"];
+    $id_game = $data["id_game"];
+    $diamond = $data["jumlah_diamond"];
+    $pembayaran = $data["harga"];
+    $tanggal = $data["tanggal"];
+
+    $query = "INSERT INTO pengelola  VALUES ('', '$game' ,'$username_game' , '$id_game', '$diamond', '$pembayaran', '$tanggal')";
+    mysqli_query($connect, $query);
+
+    return mysqli_affected_rows($connect);
+}
+
+// function cari($keyword) {
+//     $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%'";
+//     return query($query);
+// }
+
+function cari($keyword) {
+    $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%' ";
+
+    return $query;
+}

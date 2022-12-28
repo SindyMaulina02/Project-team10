@@ -16,17 +16,17 @@
 
 <body>
     <nav id="home">
-        <div class="container">
+        <div class="container ">
             <h1><a href="#home">Mobile Game Store</a></h1>
             <div></div>
-            <ul>
+            <ul class="ms-auto">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
                 <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
                 <li><a href="#joincomunitas">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
-                <!-- <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a> -->
+                <a href="index.php" class="btn btn-danger mt-3 p-2"><i class="fa-solid fa-backward"></i></a>
             </ul>
         </div>
     </nav>
@@ -109,7 +109,7 @@
                         <div class="harga">
                             <p>29 <i class="fa-solid fa-money-bill"></i></i></p>
                             <span>Rp 10.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/29.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
