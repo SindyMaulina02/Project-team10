@@ -49,7 +49,7 @@
                             <i class="fa fa-cog fa-lg me-3" aria-hidden="true"></i>Setting
                         </a>
                         <hr class="dropdown-divider">
-                        <a class="dropdown-item" href="">
+                        <a class="dropdown-item" href="../../index.php">
                             <i class="fa fa-sign-out fa-lg me-2" aria-hidden="true"></i>LogOut
                         </a>
                     </div>
@@ -85,7 +85,7 @@
                     <i class="fa fa-users fa-lg box-icon" aria-hidden="true"></i>Customer
                 </a>
                 <hr class="soft my-1 bg-white">
-                <a class="nav-link px-3 text-white" href="#">
+                <a class="nav-link px-3 text-white" href="../../index.php">
                     <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                 </a>
             </nav>

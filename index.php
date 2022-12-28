@@ -23,7 +23,8 @@
                 <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
                 <li><a href="#joincomunitas">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
-                <button class="btn-login"><a href="login/login.php">Login</a></button>
+                <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
+                    <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
             </ul>
         </div>
     </nav>
@@ -39,119 +40,137 @@
             <div class="container text-center">
 
                 <div class="link">
+
+                    <h2>Game popular</h2>
                     <a href="#harga-ff">
-                        <h2>Game popular<h2>
                                 <div class="produk">
                                     <div class="row row-cols-auto">
                                         <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
+                                            <div class="judul-produk">Valorant</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
+                                            <div class="judul-produk">PUBG</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/ml.jpg" alt="">
+                                            <div class="judul-produk">Mobile Legends</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/aov.jpg" alt="">
+                                            <div class="judul-produk">Arena Of Valor</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
+                                            <div class="judul-produk">Genshin Impact</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/ff.png" alt="">
                                             <div class="judul-produk">Free Fire</div>
                                         </div>
-                                        <div class="col"><img src="assets/images/game//pubgm.jpg" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game//valorant.jpg" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game//aov.jpg" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game//GenshinImpact.jpg" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game//higgs_domino.jpg" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-
-
                                     </div>
                                 </div>
-                                <div class="overlay" id="harga-ff">
+                    </a>
 
-                                    <div class="popup">
-                                        <h2>HARGA FREE FIRE</h2>
-                                        <a class="close" href="#populer">&times;</a>
-                                        <br>
-                                        <div class="content">
-                                            70 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 10.000</span>
-                                            <br>
-                                            140 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 20.000</span>
-                                            <br>
-                                            210 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 30.000</span>
-                                            <br>
-                                            280 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 40.000</span>
-                                            <br>
-                                            355 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 50.000</span>
-                                            <br>
-                                            500 Diamond :
-                                            <br>
-                                            <span class="harga">Rp 70.000</span>
-                                            <br>
-                                            720 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 100.000</span>
-                                            <br>
-                                            1000 Diamonds :
-                                            <br>
-                                            <span class="harga">Rp 130.000</span>
-                                            <br>
-                                            M. Mingguan :
-                                            <br>
-                                            <span class="harga">Rp 30.000</span>
-                                            <br>
-                                            M. Bulanan :
-                                            <br>
-                                            <span class="harga">Rp 150.000</span>
-                                            <br>
-                                            <a class="pesan" href="http://wa.me/6295379114998" target="_blank"
-                                                rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan
-                                                Sekarang</a>
-                                        </div>
-                                    </div>
 
-                                </div>
                 </div>
-                <div id="contact">
-                    <div class="wrapper">
-                        <div class="footer">
-                            <div class="footer-section">
-                                <h3>Mobile Game Store</h3>
-                                <p>Mobilegamestore.id adalah Platform webisite top up game termurah, tercepat, dan
-                                    terpercaya di Indonesia. Proses cepat membuat Anda nyaman Top Up disini. Dengan
-                                    Menyediakan berbagai macam pembayaran Transfer Bank,
-                                    E-Wallet, Scan QR, Alfamart, & Indomart dan pasti memudahkan anda untuk Top Up akun
-                                    games kalian.</p>
-                            </div>
-                            <div class="footer-section">
-                                <h3>Menu</h3>
-                                <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#tentang">Produk</a></li>
-                                    <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                                    <li><a href="#joincomunitas">Join comunitas</a></li>
-                                    <li><a href="contactus.html">Contact Us</a></li>
-                                    <button class="btn-login"><a href="#tentang">Login</a></button>
-                                </ul>
-                            </div>
-                            <div class="footer-section">
-                                <h3>Other Services</h3>
-                                <p></p>
-                            </div>
+            </div>
+            <div class="overlay" id="harga-ff">
+
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        <div class="harga">
+                            <p>70 Diamonds :</p>
+                            <span>Rp 10.000</span>
+                            <b>Login untuk membeli</b>
                         </div>
+                        <br>
+                        <div class="harga">
+                            <p>140 Diamonds :</p>
+                            <span>Rp 20.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>210 Diamonds :</p>
+                            <span>Rp 30.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p> 280 Diamonds :</p>
+                            <span>Rp 40.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                355 Diamonds :
+                            </p>
+                            <span>Rp 50.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                500 Diamond :
+                            </p>
+                            <span>Rp 70.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                720 Diamonds :
+                            </p>
+                            <span>Rp 100.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                1000 Diamonds :
+                            </p>
+                            <span>Rp 130.000</span>
+                            <b>Login untuk membeli</b>
+                        </div>
+
+
                     </div>
                 </div>
 
             </div>
         </div>
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <h3>Mobile Game Store</h3>
+                        <p>Mobilegamestore.id adalah Platform webisite top up game termurah, tercepat, dan
+                            terpercaya di Indonesia. Proses cepat membuat Anda nyaman Top Up disini. Dengan
+                            Menyediakan berbagai macam pembayaran Transfer Bank,
+                            E-Wallet, Scan QR, Alfamart, & Indomart dan pasti memudahkan anda untuk Top Up akun
+                            games kalian.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#tentang">Produk</a></li>
+                            <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
+                            <li><a href="#joincomunitas">Join comunitas</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <button class="btn-login"><a href="#tentang">Login</a></button>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Other Services</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
     </div>
     </section>
     </div>
