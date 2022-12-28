@@ -56,12 +56,8 @@ nav {
     background-color: #425F57;
 }
 
-.btn-login {
-    padding: 1em;
-    margin-top: .5em;
-    background-color: red;
-    
-}
+
+
 
 .btn-come {
     padding: 15px;
@@ -97,8 +93,7 @@ button:hover {
     stroke-linejoin: unset;
     background-attachment: fixed;}
 
-    .overlay 
-{
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -122,9 +117,9 @@ button:hover {
     padding: 20px;
     background: var(--dark-blue);
     border-radius: 5px;
-    width: 30%;
+    width: 100%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /* transition: all 5s ease-in-out; */
 }
   
 .popup h2 {
@@ -149,10 +144,63 @@ button:hover {
     color: #06D85F;
 }
 
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link h2 {
+    margin-top: .5em;
+}
+.link a {
+    text-decoration: none;
+}
+
 .content 
 {
-    max-height: 30%;
-    width: 50%;}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.harga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    width: 20%;
+    border: 1px solid red;
+}
+
+.harga p {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    margin: .5em;
+    width: 25%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+.col > img {
+    aspect-ratio: 16/9;
+}
     
 .ff
 {
@@ -184,7 +232,7 @@ h2{
 
 .footer {
     width: 100%;
-    position: relative;
+    z-index: -3;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -193,7 +241,12 @@ h2{
 
 .footer-section {
     width: 20%;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
 h3 {
     font-family: 'comic sans ms';
     font-weight: 800;

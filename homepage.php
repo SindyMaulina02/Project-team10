@@ -78,27 +78,27 @@
                     <br>
                     <div class="content">
                         <div class="harga">
-                            <p>70 Diamonds :</p>
+                            <p>25 Diamonds :</p>
                             <span>Rp 10.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>140 Diamonds :</p>
                             <span>Rp 20.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>210 Diamonds :</p>
                             <span>Rp 30.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p> 280 Diamonds :</p>
                             <span>Rp 40.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -106,7 +106,7 @@
                                 355 Diamonds :
                             </p>
                             <span>Rp 50.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -114,7 +114,7 @@
                                 500 Diamond :
                             </p>
                             <span>Rp 70.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -122,7 +122,7 @@
                                 720 Diamonds :
                             </p>
                             <span>Rp 100.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -130,7 +130,7 @@
                                 1000 Diamonds :
                             </p>
                             <span>Rp 130.000</span>
-                            <b>Login untuk membeli</b>
+                            <a href="">Beli</a>
                         </div>
 
 
