@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/landingpage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="
     sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
                 <li><a href="#joincomunitas">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
-                    <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
+                <!-- <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a> -->
             </ul>
         </div>
     </nav>
@@ -42,99 +44,275 @@
                 <div class="link">
 
                     <h2>Game popular</h2>
-                    <a href="#harga-ff">
-                                <div class="produk">
-                                    <div class="row row-cols-auto">
-                                        <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
-                                            <div class="judul-produk">Valorant</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
-                                            <div class="judul-produk">PUBG</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/ml.jpg" alt="">
-                                            <div class="judul-produk">Mobile Legends</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/aov.jpg" alt="">
-                                            <div class="judul-produk">Arena Of Valor</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
-                                            <div class="judul-produk">Genshin Impact</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/ff.png" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                    </div>
+                    <div class="produk">
+
+                        <div class="row row-cols-auto">
+
+                            <a href="#harga-valo">
+                                <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
+                                    <div class="judul-produk">Valorant</div>
                                 </div>
-                    </a>
+                            </a>
+
+                            <a href="#harga-pubg">
+                                <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
+                                    <div class="judul-produk">PUBG</div>
+                                </div>
+                            </a>
+                            <a href="#harga-mlbb">
+                                <div class="col"><img src="assets/images/game/ml.jpg" alt="">
+                                    <div class="judul-produk">Mobile Legends</div>
+                                </div>
+                            </a>
+                            <a href="#harga-aov">
+                                <div class="col"><img src="assets/images/game/aov.jpg" alt="">
+                                    <div class="judul-produk">Arena Of Valor</div>
+                                </div>
+                            </a>
+                            <a href="#harga-genshin">
+                                <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
+                                    <div class="judul-produk">Genshin Impact</div>
+                                </div>
+                            </a>
+                            <a href="#harga-ff">
+                                <div class="col"><img src="assets/images/game/ff.png" alt="">
+                                    <div class="judul-produk">Free Fire</div>
+                                </div>
+                            </a>
+
+
+
+
+                        </div>
+                    </div>
 
 
                 </div>
             </div>
-            <div class="overlay" id="harga-ff">
+            <div class="overlay title-popup" id="harga-valo">
+                <div class="popup">
+                    <a class="close" href="#populer">&times;</a>
+
+                </div>
+                <div class="title-popup d-flex justify-content-center align-items-center">
+                    <h2 class="text-center text-dark">COMING SOON :)</h2>
+                </div>
+
+            </div>
+            <div class="overlay" id="harga-pubg">
 
                 <div class="popup">
-                    <h2>HARGA FREE FIRE</h2>
+                    <h2>Harga UC PUBM</h2>
                     <a class="close" href="#populer">&times;</a>
                     <br>
                     <div class="content">
                         <div class="harga">
-                            <p>25 Diamonds :</p>
+                            <p>29 <i class="fa-solid fa-money-bill"></i></i></p>
                             <span>Rp 10.000</span>
-                            <a href="">Beli</a>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
-                            <p>140 Diamonds :</p>
-                            <span>Rp 20.000</span>
-                            <a href="">Beli</a>
+                            <p>40 <i class="fa-solid fa-money-bill"></i></p>
+                            <span>Rp 12.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
-                            <p>210 Diamonds :</p>
-                            <span>Rp 30.000</span>
-                            <a href="">Beli</a>
+                            <p>70 <i class="fa-solid fa-money-bill"></i></p>
+                            <span>Rp 14.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
-                            <p> 280 Diamonds :</p>
-                            <span>Rp 40.000</span>
-                            <a href="">Beli</a>
+                            <p>125 <i class="fa-solid fa-money-bill"></i></p>
+                            <span>Rp 25.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>
-                                355 Diamonds :
+                                250 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 50.000</span>
-                            <a href="">Beli</a>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>
-                                500 Diamond :
-                            </p>
-                            <span>Rp 70.000</span>
-                            <a href="">Beli</a>
-                        </div>
-                        <br>
-                        <div class="harga">
-                            <p>
-                                720 Diamonds :
+                                500 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 100.000</span>
-                            <a href="">Beli</a>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>
-                                1000 Diamonds :
+                                1250 <i class="fa-solid fa-money-bill"></i>
                             </p>
-                            <span>Rp 130.000</span>
-                            <a href="">Beli</a>
+                            <span>Rp 250.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                2500 <i class="fa-solid fa-money-bill"></i>
+                            </p>
+                            <span>Rp 500.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
                         </div>
 
 
                     </div>
+                </div>
+
+            </div>
+            <div class="overlay" id="harga-mlbb">
+
+                <div class="popup">
+                    <h2>Harga Diamond MLBB</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        <div class="harga">
+                            <p>25 <i class="fa-solid fa-gem"></i></i></p>
+                            <span>Rp 10.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>40 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 12.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>53 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 20.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>77 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 30.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                217 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 68.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                256 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 84.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                503 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 158.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                1708 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 527.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="overlay title-popup" id="harga-aov">
+                <div class="popup">
+                    <a class="close" href="#populer">&times;</a>
+
+                </div>
+                <div class="title-popup d-flex justify-content-center align-items-center">
+                    <h2 class="text-center text-dark">COMING SOON :)</h2>
+                </div>
+
+            </div>
+
+            <div class="overlay" id="harga-genshin">
+
+                <div class="popup">
+                    <h2>Harga Diamond Genshin</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        <div class="harga">
+                            <p>60 <i class="fa-solid fa-gem"></i></i></p>
+                            <span>Rp 16.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>300 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 79.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>980 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 249.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>1980 <i class="fa-solid fa-gem"></i></p>
+                            <span>Rp 479.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                3280 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 799.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                6480 <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 1.599.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+                        <div class="harga">
+                            <p>
+                                Blessing Welkin <i class="fa-solid fa-gem"></i>
+                            </p>
+                            <span>Rp 79.000</span>
+                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                        </div>
+                        <br>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="overlay title-popup" id="harga-ff">
+                <div class="popup">
+                    <a class="close" href="#populer">&times;</a>
+                </div>
+                <div class="title-popup d-flex justify-content-center align-items-center">
+                    <h2 class="text-center text-dark">COMING SOON :)</h2>
                 </div>
 
             </div>

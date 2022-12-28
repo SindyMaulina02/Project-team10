@@ -111,6 +111,10 @@ button:hover {
     opacity: 1;
 }
 
+.title-popup {
+    height: 100vh;
+}
+
 .popup 
 {
     margin: 70px auto;
