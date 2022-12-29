@@ -21,19 +21,45 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
                 <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                <li><a href="#joincomunitas">Join comunitas</a></li>
+                <li><a href="https://t.me/+xhGHlszgcUdkMTM9">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
-                    <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
+                <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
             </ul>
         </div>
     </nav>
-    <section id="home">
-        <div class="container_section">
-            <section id="#home" class="image_2">
 
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-    </section>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/game/game.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/game/game2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/game/game3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <div id="tentang">
         <div class="tentang">
@@ -43,28 +69,28 @@
 
                     <h2>Game popular</h2>
                     <a href="#harga-ff">
-                                <div class="produk">
-                                    <div class="row row-cols-auto">
-                                        <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
-                                            <div class="judul-produk">Valorant</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
-                                            <div class="judul-produk">PUBG</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/ml.jpg" alt="">
-                                            <div class="judul-produk">Mobile Legends</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/aov.jpg" alt="">
-                                            <div class="judul-produk">Arena Of Valor</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
-                                            <div class="judul-produk">Genshin Impact</div>
-                                        </div>
-                                        <div class="col"><img src="assets/images/game/ff.png" alt="">
-                                            <div class="judul-produk">Free Fire</div>
-                                        </div>
-                                    </div>
+                        <div class="produk">
+                            <div class="row row-cols-auto">
+                                <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
+                                    <div class="judul-produk">Valorant</div>
                                 </div>
+                                <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
+                                    <div class="judul-produk">PUBG</div>
+                                </div>
+                                <div class="col"><img src="assets/images/game/ml.jpg" alt="">
+                                    <div class="judul-produk">Mobile Legends</div>
+                                </div>
+                                <div class="col"><img src="assets/images/game/aov.jpg" alt="">
+                                    <div class="judul-produk">Arena Of Valor</div>
+                                </div>
+                                <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
+                                    <div class="judul-produk">Genshin Impact</div>
+                                </div>
+                                <div class="col"><img src="assets/images/game/ff.png" alt="">
+                                    <div class="judul-produk">Free Fire</div>
+                                </div>
+                            </div>
+                        </div>
                     </a>
 
 
@@ -143,26 +169,27 @@
             <div class="wrapper">
                 <div class="footer">
                     <div class="footer-section">
-                        <h3>Mobile Game Store</h3>
-                        <p>Mobilegamestore.id adalah Platform webisite top up game termurah, tercepat, dan
+                        <h3 class="text-white">Mobile Game Store</h3>
+                        <p class="text-white">Mobilegamestore.id adalah Platform webisite top up game termurah,
+                            tercepat, dan
                             terpercaya di Indonesia. Proses cepat membuat Anda nyaman Top Up disini. Dengan
                             Menyediakan berbagai macam pembayaran Transfer Bank,
                             E-Wallet, Scan QR, Alfamart, & Indomart dan pasti memudahkan anda untuk Top Up akun
                             games kalian.</p>
                     </div>
                     <div class="footer-section">
-                        <h3>Menu</h3>
+                        <h3 class="text-white">Menu</h3>
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#tentang">Produk</a></li>
-                            <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                            <li><a href="#joincomunitas">Join comunitas</a></li>
-                            <li><a href="contactus.html">Contact Us</a></li>
-                            <button class="btn-login"><a href="#tentang">Login</a></button>
+                            <li><a class="text-white" href="#home">Home</a></li>
+                            <li><a class="text-white" href="#tentang">Produk</a></li>
+                            <li><a class="text-white" href="http://wa.me/6295379114998">Join reseller</a></li>
+                            <li><a class="text-white" href="https://t.me/+xhGHlszgcUdkMTM9">Join comunitas</a></li>
+                            <li><a class="text-white" href="contactus.html">Contact Us</a></li>
+
                         </ul>
                     </div>
                     <div class="footer-section">
-                        <h3>Other Services</h3>
+                        <h3 class="text-white">Other Services</h3>
                         <p></p>
                     </div>
                 </div>
@@ -177,7 +204,9 @@
     </div>
     </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
