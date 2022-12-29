@@ -3,7 +3,14 @@
     require '../../function/function.php';
     $pengelola = query("SELECT * FROM pengelola");
 
+// $pengelola = query("SELECT * FROM pengelola ORDER BY id DESC");  
 
+
+
+    if (isset($_POST["search"])) {
+        $pengelola = cari($_POST["keyword"]);
+    }
+    
 ?>
 
 
@@ -172,16 +179,16 @@
                             <div class="cust-table">
                                 <div class="d-flex justify-content-between flex-wrap gap-5 title-table w-100">
                                     <h1>Pelanggan Terbaru</h1>
-                                    <form class="d-flex " role="search">
+                                    <form class="d-flex " role="search" method="post">
                                         <table>
                                             <tr>
                                                 <td>
-                                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                                    <input class="form-control me-2" name="keyword" type="search" placeholder="Search"
                                                         aria-label="Search">
                                                 </td>
                                                 <td>
                                                     <button class="btn btn-outline-success"
-                                                        type="submit">Search</button>
+                                                         name="search">Search</button>
                                                 </td>
                                             </tr>
                                         </table>

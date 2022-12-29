@@ -25,7 +25,26 @@ if (isset($_POST["login"])) {
             exit;
         }
     }
+
+
+    $result2 = mysqli_query($connect, "SELECT * FROM users WHERE username_login = '$username' AND password = '$password' ");
+    $cek = mysqli_num_rows($result2);
+
+    if ($cek > 0) {
+        global $result2;
+
+        $data = mysqli_fetch_assoc($result2);
+
+        if ($data["level"] === "admin") {
+
+            echo "<script>
+                    window.location.href = '../admin/dashboard/dashboard.php'
+                </script>"; 
+        }
+    }
+
     $error = true;
+
 }
 
 
