@@ -11,8 +11,8 @@ if (isset($_POST["submit"])) {
     if(tambah($_POST) > 0) {
         echo
         "<script>
-            alert('Data berhasil ditambahkan');
-            window.location.href = 'index.php';
+            alert('Top Up berhasil');
+            window.location.href = '../../homepage.php';
         </script>";
     } else {
         echo

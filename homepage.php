@@ -115,19 +115,19 @@
                         <div class="harga">
                             <p>40 <i class="fa-solid fa-money-bill"></i></p>
                             <span>Rp 12.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/40.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>70 <i class="fa-solid fa-money-bill"></i></p>
                             <span>Rp 14.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/70.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>125 <i class="fa-solid fa-money-bill"></i></p>
                             <span>Rp 25.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/125.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -135,7 +135,7 @@
                                 250 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 50.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/250.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -143,7 +143,7 @@
                                 500 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 100.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/500.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -151,7 +151,7 @@
                                 1250 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 250.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/1250.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -159,7 +159,7 @@
                                 2500 <i class="fa-solid fa-money-bill"></i>
                             </p>
                             <span>Rp 500.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/pubg/2500.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
 
 

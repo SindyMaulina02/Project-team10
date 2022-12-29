@@ -28,12 +28,13 @@
             </ul>
         </div>
     </nav>
-    <section id="home">
+    <!-- <section id="home">
         <div class="container_section">
             <section id="#home" class="image_2">
 
         </div>
-    </section>
+    </section> -->
+    
 
     <div id="tentang">
         <div class="tentang">
