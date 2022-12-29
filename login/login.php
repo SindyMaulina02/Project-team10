@@ -101,7 +101,7 @@ if (isset($_POST["login"])) {
             </div>
 
 
-            <form action="" method="post" class="mt-5 d-flex flex-column justify-content-center align-items-center">
+            <form action="" method="post" class="mt-5 mb-5 d-flex flex-column justify-content-center align-items-center">
                 <table>
                     <tr>
                         <td><label for="username">Username</label></td>
