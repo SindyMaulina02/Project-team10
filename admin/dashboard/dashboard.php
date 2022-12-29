@@ -6,9 +6,6 @@
 // $pengelola = query("SELECT * FROM pengelola ORDER BY id DESC");  
 
 
-    // if (isset($_POST["search"])) {
-    //     $pengelola = cari($_POST["keyword"]);
-    // }
 
     if (isset($_POST["search"])) {
         $pengelola = cari($_POST["keyword"]);
