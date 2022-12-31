@@ -1,9 +1,9 @@
 <?php 
 
     require '../../function/function.php';
-    $pengelola = query("SELECT * FROM pengelola");
+    $pengelola = query("SELECT * FROM pengelola ORDER BY id DESC");
 
-// $pengelola = query("SELECT * FROM pengelola ORDER BY id DESC");  
+// $pengelola = query("SELECT * FROM pengelola c");  
 
 
 

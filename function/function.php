@@ -76,15 +76,14 @@ function tambah($data) {
     return mysqli_affected_rows($connect);
 }
 
-// function cari($keyword) {
-//     $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%'";
-//     return query($query);
-// }
-
 function cari($keyword) {
-    $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%' ";
+    $query = "SELECT * FROM pengelola
+                WHERE 
+            username LIKE '%$keyword%' OR 
+            id_game LIKE '%$keyword%' 
+            ";
 
-    return $query;
+    return query($query);
 }
 
 function hapus($id) {
