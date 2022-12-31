@@ -18,6 +18,7 @@ if (isset($_POST["login"])) {
         //cek password
         $row = mysqli_fetch_assoc($result);
         $verif = password_verify($password, $row["password"]);
+        //$result = mysqli_query($connect, "SELECT * FROM users WHERE jenis_kelamin = '$gender'");
 
         if ($verif) {
             echo "<script>
@@ -26,6 +27,11 @@ if (isset($_POST["login"])) {
             // header("location: ../admin/dashboard/dashboard.php");
             exit;
         }
+        //  elseif ($gender !== $result) {
+        //     echo "<script>
+        //     alert('gender tidak sesuai')
+        //           </script>";
+        // }
     }
 
 
@@ -40,7 +46,7 @@ if (isset($_POST["login"])) {
         if ($data["level"] === "admin") {
 
             echo "<script>
-                    window.location.href = '../admin/dashboard/dashboard.php'
+                    window.location.href = '../admin/home/home.php'
                 </script>"; 
         }
     }

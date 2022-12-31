@@ -86,3 +86,34 @@ function cari($keyword) {
 
     return $query;
 }
+
+function hapus($id) {
+    global $connect;
+    mysqli_query($connect, "DELETE FROM pengelola WHERE id = $id");
+
+    return mysqli_affected_rows($connect);
+}
+
+function ubah($data) {
+    global $connect;
+
+    $id      = $data["id"];
+    $game = $data["game"];
+    $username_game = $data["username_game"];
+    $id_game = $data["id_game"];
+    $tanggal = $data["tanggal"];
+
+    //query insert
+    $query = "UPDATE pengelola SET 
+                game     = '$game',
+                username    = '$username_game',
+                id_game = '$id_game',
+                tanggal_pembayaran  = '$tanggal'
+
+              WHERE id = $id  
+    
+            ";
+    mysqli_query($connect, $query);
+
+    return mysqli_affected_rows($connect);
+}

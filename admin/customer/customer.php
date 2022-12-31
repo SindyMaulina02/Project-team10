@@ -140,14 +140,14 @@
                                             <td>Rp. <?= $admin["pembayaran"]; ?> </td>
                                             <td><?= $admin["tanggal_pembayaran"]; ?></td>
                                             <td>
-                                                <a href=""> <i class="fa-solid fa-pen-to-square"></i></a> |
-                                                <a href=""><i class="fa-solid fa-trash text-danger"></i></a>
+                                                <a href="../../action/update/update.php?id=<?= $admin["id"]; ?>"href=""> <i class="fa-solid fa-pen-to-square"></i></a> |
+                                                <a href="../../action/delete/delete.php?id=<?= $admin["id"]; ?>" onclick="return confirm('Yakin nih mau hapus datanya?');"><i class="fa-solid fa-trash text-danger"></i></a>
                                             </td>
                                         </tr>
                                         <?php $i++; ?>
                                         <?php endforeach; ?>
                                     </table>
-                                </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
