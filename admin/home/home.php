@@ -80,7 +80,7 @@
                     <i class="fa fa-users fa-lg box-icon" aria-hidden="true"></i>Customer
                 </a>
                 <hr class="soft my-1 bg-white">
-                <a class="nav-link px-3 text-white" href="../../index.php">
+                <a class="nav-link px-3 text-white" onclick="return confirm('Yakin mau keluar?');" href="../../index.php">
                     <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                 </a>
             </nav>

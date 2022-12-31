@@ -92,7 +92,7 @@
                     <i class="fa fa-users fa-lg box-icon" aria-hidden="true"></i>Customer
                 </a>
                 <hr class="soft my-1 bg-white">
-                <a class="nav-link px-3 text-white" href="../../index.php">
+                <a class="nav-link px-3 text-white" onclick="return confirm('Yakin mau keluar?');" href="../../index.php">
                     <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                 </a>
             </nav>
@@ -198,6 +198,7 @@
                                     <table class="table ms-0">
                                         <tr>
                                             <th scope="col">No.</th>
+                                            <th scope="col">Game</th>
                                             <th scope="col">Username</th>
                                             <th scope="col">ID Game</th>
                                             <th scope="col">Jumlah Diamond</th>
@@ -208,6 +209,7 @@
                                         <?php foreach($pengelola as $admin) : ?>
                                         <tr>
                                         <td scope="row"><?= $i; ?></td>
+                                        <td><?= $admin["game"]; ?></td>
                                             <td><?= $admin["username"]; ?></td>
                                             <td><?= $admin["id_game"]; ?></td>
                                             <td><?= $admin["diamond"]; ?></td>

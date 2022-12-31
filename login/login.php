@@ -24,7 +24,6 @@ if (isset($_POST["login"])) {
             echo "<script>
                         window.location.href = '../homepage.php'
                     </script>";
-            // header("location: ../admin/dashboard/dashboard.php");
             exit;
         }
         //  elseif ($gender !== $result) {
