@@ -90,7 +90,7 @@
                         <td><label for="jenis_kelamin" class="form-label">Gender</label></td>
                         <td>:</td>
                         <td>
-                            <select class="form-select" id="validationDefault04" name="gender" required>
+                            <select class="form-select" id="validationDefault04" name="jenis_kelamin" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option>Male</option>
                                 <option>Female</option>

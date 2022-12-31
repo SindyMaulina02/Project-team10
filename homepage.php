@@ -1,3 +1,11 @@
+<?php 
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +30,7 @@
             <ul class="ms-auto">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
-                <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                <li><a href="#joincomunitas">Join comunitas</a></li>
+                <li><a href="customer/profile.php">Profile</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
                 <a href="index.php" class="btn btn-danger mt-3 p-2"><i class="fa-solid fa-backward"></i></a>

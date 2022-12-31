@@ -21,7 +21,7 @@ function regis($data)
 
     $username = strtolower(stripslashes($data["username"]));
     $email = $data["email"];
-    $gender = $data["gender"];
+    $gender = $data["jenis_kelamin"];
     $password = mysqli_real_escape_string($connect, $data["password"]);
     $confirm_password = mysqli_real_escape_string($connect, $data["confirm-password"]);
 
@@ -55,7 +55,7 @@ function regis($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     //tambahkan user baru
-    mysqli_query($connect, "INSERT INTO users VALUES ('', '$username', '$password', '$gender', '$email')");
+    mysqli_query($connect, "INSERT INTO users VALUES ('', '$username', '$password', '$gender', '$email', '')");
 
     return mysqli_affected_rows($connect);
 }

@@ -8,7 +8,7 @@ if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
     $email = $_POST["email"];
-    // $gender = $_POST["gender"];
+    $gender = $_POST["jenis_kelamin"];
 
     $result = mysqli_query($connect, "SELECT * FROM users WHERE username_login = '$username'");
 
@@ -17,7 +17,9 @@ if (isset($_POST["login"])) {
 
         //cek password
         $row = mysqli_fetch_assoc($result);
-        if (password_verify($password, $row["password"])) {
+        $verif = password_verify($password, $row["password"]);
+
+        if ($verif) {
             echo "<script>
                         window.location.href = '../homepage.php'
                     </script>";
@@ -122,7 +124,7 @@ if (isset($_POST["login"])) {
                         <td><label for="jenis_kelamin" class="form-label">Gender</label></td>
                         <td>:</td>
                         <td>
-                            <select class="form-select" id="validationDefault04" required>
+                            <select class="form-select" name="jenis_kelamin" id="validationDefault04" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option>Male</option>
                                 <option>Female</option>
