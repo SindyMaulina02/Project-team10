@@ -78,32 +78,32 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="game">Game</label></td>
                         <td>:</td>
-                            <td><input type="text" placeholder="isi id game....." value="pubg"  name="game" id="game" require class="form-control"></td>
+                            <td><input type="text" placeholder="isi id game....." value="pubg"  name="game" id="game" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="id_game">ID Game</label></td>
                         <td>:</td>
-                        <td><input type="number" placeholder="isi id game....." name="id_game" id="id_game" require class="form-control"></td>
+                        <td><input type="number" placeholder="isi id game....." name="id_game" id="id_game" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="username">Username Game</label></td>
                         <td>:</td>
-                        <td><input type="text" placeholder="isi username ......" name="username_game" id="username" require class="form-control"></td>
+                        <td><input type="text" placeholder="isi username ......" name="username_game" id="username" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="jumlah_diamond">Jumlah Diamond</label></td>
                         <td>:</td>
-                        <td><input type="text" placeholder="isi jumlah_diamond..." value="1250"  name="jumlah_diamond" id="jumlah_diamond" require class="form-control"></td>
+                        <td><input type="text" placeholder="isi jumlah_diamond..." value="1250"  name="jumlah_diamond" id="jumlah_diamond" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="harga">Harga</label></td>
                         <td>:</td>
-                        <td><input type="harga" placeholder="isi harga...."  value="250000" name="harga" id="harga" require class="form-control"></td>
+                        <td><input type="harga" placeholder="isi harga...."  value="250000" name="harga" id="harga" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="tanggal">Tanggal Pembayaran</label></td>
                         <td>:</td>
-                        <td><input type="date" placeholder="isi tanggal.." name="tanggal" id="tanggal" require class="form-control"></td>
+                        <td><input type="date" placeholder="isi tanggal.." name="tanggal" id="tanggal" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td></td>
