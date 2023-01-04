@@ -1,11 +1,10 @@
 <?php
 
-// require './config/conection.php';
+// require '../config/conection.php';
 $connect = mysqli_connect("localhost", "root", "", "topup");
 
 
-function query($query)
-{
+function query($query) {
     global $connect;
     $result = mysqli_query($connect, $query);
     $row = [];
@@ -15,8 +14,7 @@ function query($query)
     return $rows;
 }
 
-function regis($data)
-{
+function regis($data) {
     global $connect;
 
     $username = strtolower(stripslashes($data["username"]));
