@@ -11,7 +11,6 @@
          margin: 10px;
          padding: 10px;
          color: aliceblue;
-         margin-top: 10%
         }
         
        </style>

@@ -18,7 +18,7 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light py-1">
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-1 mt-0">
         <div class="container-fluid">
             <button class="btn btn-default" id="btn-slider" type="button">
                 <i class="fa fa-bars fa-lg" aria-hidden="true"></i>

@@ -21,10 +21,10 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
                 <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                <li><a href="https://t.me/+xhGHlszgcUdkMTM9">Join comunitas</a></li>
+                <li><a href="#joincomunitas">Join comunitas</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
-                <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
+                    <a href="login/login.php" class="btn btn-danger mt-3 p-2">Login</a>
             </ul>
         </div>
     </nav>
@@ -34,24 +34,7 @@
 
         </div>
     </section> -->
-    <div id="home">
-        <div class="home">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/images/game/game.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/game/game4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/game/ff bg.jpeg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-    </div>
-        </div>
-    </div>
-
+    
 
     <div id="tentang">
         <div class="tentang">
@@ -61,28 +44,28 @@
 
                     <h2>Game popular</h2>
                     <a href="#harga-ff">
-                        <div class="produk">
-                            <div class="row row-cols-auto">
-                                <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
-                                    <div class="judul-produk">Valorant</div>
+                                <div class="produk">
+                                    <div class="row row-cols-auto">
+                                        <div class="col"><img src="assets/images/game/valorant.jpg" alt="">
+                                            <div class="judul-produk">Valorant</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
+                                            <div class="judul-produk">PUBG</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/ml.jpg" alt="">
+                                            <div class="judul-produk">Mobile Legends</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/aov.jpg" alt="">
+                                            <div class="judul-produk">Arena Of Valor</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
+                                            <div class="judul-produk">Genshin Impact</div>
+                                        </div>
+                                        <div class="col"><img src="assets/images/game/ff.png" alt="">
+                                            <div class="judul-produk">Free Fire</div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col"><img src="assets/images/game/pubgm.jpg" alt="">
-                                    <div class="judul-produk">PUBG</div>
-                                </div>
-                                <div class="col"><img src="assets/images/game/ml.jpg" alt="">
-                                    <div class="judul-produk">Mobile Legends</div>
-                                </div>
-                                <div class="col"><img src="assets/images/game/aov.jpg" alt="">
-                                    <div class="judul-produk">Arena Of Valor</div>
-                                </div>
-                                <div class="col"><img src="assets/images/game/GenshinImpact.jpg" alt="">
-                                    <div class="judul-produk">Genshin Impact</div>
-                                </div>
-                                <div class="col"><img src="assets/images/game/ff.png" alt="">
-                                    <div class="judul-produk">Free Fire</div>
-                                </div>
-                            </div>
-                        </div>
                     </a>
 
 
@@ -91,7 +74,7 @@
             <div class="overlay" id="harga-ff">
 
                 <div class="popup">
-                    <h2>HARGA DIAMOND</h2>
+                    <h2>HARGA FREE FIRE</h2>
                     <a class="close" href="#populer">&times;</a>
                     <br>
                     <div class="content">
@@ -174,22 +157,14 @@
                             <li><a href="#home">Home</a></li>
                             <li><a href="#tentang">Produk</a></li>
                             <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                            <li><a href="https://t.me/+xhGHlszgcUdkMTM9">Join comunitas</a></li>
+                            <li><a href="#joincomunitas">Join comunitas</a></li>
                             <li><a href="contactus.html">Contact Us</a></li>
-                            
+                            <button class="btn-login"><a href="#tentang">Login</a></button>
                         </ul>
                     </div>
                     <div class="footer-section">
-                        <h3>Partnership</h3>
-                        <ul>
-                            <li><a href="https://www.ulbi.ac.id/">Universitas Logistik dan Bismis Internasional</a></li>
-                            <li><a href="https://if.ulbi.ac.id/">Prodi Teknik Informatika</a></li>
-                            <li><a href="https://www.instagram.com/himatifpoltekpos_/?hl=id">HIMATIF</a></li>
-                            <li><a href="https://www.instagram.com/logic_coffeee/?hl=id">Logic Coffee</a></li>
-                            
-                            
-                        </ul>
-
+                        <h3>Other Services</h3>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -203,12 +178,6 @@
     </div>
     </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
 
 </body>
 

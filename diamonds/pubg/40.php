@@ -83,7 +83,7 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="id_game">ID Game</label></td>
                         <td>:</td>
-                        <td><input type="number" placeholder="isi id game....." name="id_game" id="id_game" required class="form-control"></td>
+                        <td><input type="number" placeholder="isi id game....." name="id_game"  maxlength="8" id="id_game" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="username">Username Game</label></td>

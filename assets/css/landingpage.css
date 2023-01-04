@@ -85,9 +85,9 @@ button:hover {
     justify-content: center;
     align-items: center;
     display: flex;
-  */
+    background-image: url(../images/game/game.jpg);
     
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     stroke-linejoin: unset;
@@ -249,14 +249,6 @@ h2{
     margin: 0 auto;
 }
 
-.footer-section h3 {
-    color: white;
-}
-
-.footer-section p {
-    color: white;
-}
-
 .footer-section ul {
     list-style-type: none;
 }
@@ -265,7 +257,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
 }
