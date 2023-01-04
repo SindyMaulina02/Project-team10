@@ -85,7 +85,7 @@
                     <i class="fa fa-users fa-lg box-icon" aria-hidden="true"></i>Customer
                 </a>
                 <hr class="soft my-1 bg-white">
-                <a class="nav-link px-3 text-white" href="../../index.php">
+                <a class="nav-link px-3 text-white" onclick="return confirm('Yakin mau keluar?');" href="../../index.php">
                     <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                 </a>
             </nav>
@@ -123,6 +123,7 @@
 
                                         <tr>
                                             <th>No.</th>
+                                            <th>Game</th>
                                             <th>Username</th>
                                             <th>ID Game</th>
                                             <th>Jumlah Diamond</th>
@@ -134,20 +135,21 @@
                                         <?php foreach($pengelola as $admin) : ?>
                                         <tr>
                                             <td><?= $i; ?></td>
+                                            <td><?= $admin["game"]; ?></td>
                                             <td><?= $admin["username"]; ?></td>
                                             <td><?= $admin["id_game"]; ?></td>
                                             <td><?= $admin["diamond"]; ?></td>
                                             <td>Rp. <?= $admin["pembayaran"]; ?> </td>
                                             <td><?= $admin["tanggal_pembayaran"]; ?></td>
                                             <td>
-                                                <a href=""> <i class="fa-solid fa-pen-to-square"></i></a> |
-                                                <a href=""><i class="fa-solid fa-trash text-danger"></i></a>
+                                                <a href="../../action/update/update.php?id=<?= $admin["id"]; ?>"href=""> <i class="fa-solid fa-pen-to-square"></i></a> |
+                                                <a href="../../action/delete/delete.php?id=<?= $admin["id"]; ?>" onclick="return confirm('Yakin nih mau hapus datanya?');"><i class="fa-solid fa-trash text-danger"></i></a>
                                             </td>
                                         </tr>
                                         <?php $i++; ?>
                                         <?php endforeach; ?>
                                     </table>
-                                </div>
+                                  </div>
                             </div>
                         </div>
                     </div>

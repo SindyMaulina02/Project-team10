@@ -21,7 +21,7 @@ function regis($data)
 
     $username = strtolower(stripslashes($data["username"]));
     $email = $data["email"];
-    $gender = $data["gender"];
+    $gender = $data["jenis_kelamin"];
     $password = mysqli_real_escape_string($connect, $data["password"]);
     $confirm_password = mysqli_real_escape_string($connect, $data["confirm-password"]);
 
@@ -55,7 +55,7 @@ function regis($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     //tambahkan user baru
-    mysqli_query($connect, "INSERT INTO users VALUES ('', '$username', '$password', '$gender', '$email')");
+    mysqli_query($connect, "INSERT INTO users VALUES ('', '$username', '$password', '$gender', '$email', '')");
 
     return mysqli_affected_rows($connect);
 }
@@ -76,13 +76,43 @@ function tambah($data) {
     return mysqli_affected_rows($connect);
 }
 
-// function cari($keyword) {
-//     $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%'";
-//     return query($query);
-// }
-
 function cari($keyword) {
-    $query = "SELECT * FROM pengelola WHERE username LIKE '%$keyword%' OR id_game LIKE '%$keyword%' ";
+    $query = "SELECT * FROM pengelola
+                WHERE 
+            username LIKE '%$keyword%' OR 
+            id_game LIKE '%$keyword%' 
+            ";
 
-    return $query;
+    return query($query);
+}
+
+function hapus($id) {
+    global $connect;
+    mysqli_query($connect, "DELETE FROM pengelola WHERE id = $id");
+
+    return mysqli_affected_rows($connect);
+}
+
+function ubah($data) {
+    global $connect;
+
+    $id      = $data["id"];
+    $game = $data["game"];
+    $username_game = $data["username_game"];
+    $id_game = $data["id_game"];
+    $tanggal = $data["tanggal"];
+
+    //query insert
+    $query = "UPDATE pengelola SET 
+                game     = '$game',
+                username    = '$username_game',
+                id_game = '$id_game',
+                tanggal_pembayaran  = '$tanggal'
+
+              WHERE id = $id  
+    
+            ";
+    mysqli_query($connect, $query);
+
+    return mysqli_affected_rows($connect);
 }
