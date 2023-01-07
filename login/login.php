@@ -11,14 +11,15 @@ if (isset($_POST["login"])) {
     $gender = $_POST["jenis_kelamin"];
 
     $result = mysqli_query($connect, "SELECT * FROM users WHERE username_login = '$username'");
+    $result1 = mysqli_query($connect, "SELECT * FROM users WHERE jenis_kelamin = '$gender'");
+
 
     //cek username
-    if (mysqli_num_rows($result) === 1) {
+    if (mysqli_num_rows($result) === 1 && mysqli_num_rows($result1) === 1) {
 
         //cek password
         $row = mysqli_fetch_assoc($result);
         $verif = password_verify($password, $row["password"]);
-        //$result = mysqli_query($connect, "SELECT * FROM users WHERE jenis_kelamin = '$gender'");
 
         if ($verif) {
             echo "<script>

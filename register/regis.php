@@ -7,7 +7,7 @@
 
         if ( regis($_POST) > 0 ) {
             echo "<script>
-                alert('User baru berhasil ditambahkan')
+                alert('Akun Berhasil Terbuat')
                     </script>";
         } else {
             echo mysqli_error($connect);

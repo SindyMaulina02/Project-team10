@@ -78,7 +78,7 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="game">Game</label></td>
                         <td>:</td>
-                            <td><input type="text" placeholder="isi id game....." value="pubg"  name="game" id="game" required class="form-control"></td>
+                            <td><input type="text" placeholder="isi id game....." value="Mobile Legend"  name="game" id="game" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="id_game">ID Game</label></td>
@@ -93,7 +93,7 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="jumlah_diamond">Jumlah Diamond</label></td>
                         <td>:</td>
-                        <td><input type="text" placeholder="isi jumlah_diamond..." value="29"  name="jumlah_diamond" id="jumlah_diamond" require class="form-control"></td>
+                        <td><input type="text" placeholder="isi jumlah_diamond..." value="25"  name="jumlah_diamond" id="jumlah_diamond" require class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="harga">Harga</label></td>

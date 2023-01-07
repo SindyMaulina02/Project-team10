@@ -184,25 +184,25 @@
                         <div class="harga">
                             <p>25 <i class="fa-solid fa-gem"></i></i></p>
                             <span>Rp 10.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/25.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>40 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 12.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/40.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>53 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 20.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/53.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>77 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 30.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/77.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -210,7 +210,7 @@
                                 217 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 68.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/217.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -218,7 +218,7 @@
                                 256 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 84.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/256.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -226,7 +226,7 @@
                                 503 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 158.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/503.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -234,7 +234,7 @@
                                 1708 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 527.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/mlbb/1708.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
 
 
@@ -263,25 +263,25 @@
                         <div class="harga">
                             <p>60 <i class="fa-solid fa-gem"></i></i></p>
                             <span>Rp 16.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/60.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>300 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 79.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/300.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>980 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 249.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/980.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
                             <p>1980 <i class="fa-solid fa-gem"></i></p>
                             <span>Rp 479.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/1980.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -289,7 +289,7 @@
                                 3280 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 799.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/3280.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -297,7 +297,7 @@
                                 6480 <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 1.599.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/6480.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
                         <div class="harga">
@@ -305,7 +305,7 @@
                                 Blessing Welkin <i class="fa-solid fa-gem"></i>
                             </p>
                             <span>Rp 79.000</span>
-                            <a href="" class="btn-primary btn mt-1">Beli</a>
+                            <a href="diamonds/genshin/blessingwelkin.php" class="btn-primary btn mt-1">Beli</a>
                         </div>
                         <br>
 
