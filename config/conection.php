@@ -1,5 +1,5 @@
 <?php 
 
-    $connect = mysqli_connect("localhost", "root", "", "topup");
+   // $connect = mysqli_connect("localhost", "root", "", "topup");
 
 ?>
