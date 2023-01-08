@@ -33,7 +33,7 @@
                 <li><a href="customer/profile.php">Profile</a></li>
                 <li><a href="contactUs1.php">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
-                <a href="index.php" class="btn btn-danger mt-3 p-2"><i class="fa-solid fa-backward"></i></a>
+                <a href="index.php" class="btn btn-danger mt-3 p-2" onclick="return confirm('Yakin ');"><i class="fa-solid fa-backward"></i></a>
             </ul>
         </div>
     </nav>

@@ -8,7 +8,7 @@ require '../../function/function.php';
 //Cek apakah tombol sudah ditekan atau belom
 if (isset($_POST["submit"])) {
 
-    if(tambah($_POST) > 0) {
+    if (tambah($_POST) > 0) {
         echo
         "<script>
             alert('Top Up berhasil');
@@ -45,11 +45,11 @@ if (isset($_POST["submit"])) {
 
 
 </head>
-    <style>
-       table td {
+<style>
+    table td {
         padding: .3em;
-       }
-    </style>
+    }
+</style>
 
 
 <body>
@@ -78,7 +78,12 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="game">Game</label></td>
                         <td>:</td>
-                            <td><input type="text" placeholder="isi id game....." value="pubg"  name="game" id="game" required class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="game" id="game" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>PUBG</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="id_game">ID Game</label></td>
@@ -93,12 +98,22 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="jumlah_diamond">Jumlah Diamond</label></td>
                         <td>:</td>
-                        <td><input type="text" placeholder="isi jumlah_diamond..." value="29"  name="jumlah_diamond" id="jumlah_diamond" require class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="jumlah_diamond" id="jumlah_diamond" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>29</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="harga">Harga</label></td>
                         <td>:</td>
-                        <td><input type="harga" placeholder="isi harga...."  value="10000" name="harga" id="harga" required class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="harga" id="harga" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>10000</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="tanggal">Tanggal Pembayaran</label></td>

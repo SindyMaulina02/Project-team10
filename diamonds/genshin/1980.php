@@ -8,7 +8,7 @@ require '../../function/function.php';
 //Cek apakah tombol sudah ditekan atau belom
 if (isset($_POST["submit"])) {
 
-    if(tambah($_POST) > 0) {
+    if (tambah($_POST) > 0) {
         echo
         "<script>
             alert('Top Up berhasil');
@@ -45,11 +45,11 @@ if (isset($_POST["submit"])) {
 
 
 </head>
-    <style>
-       table td {
+<style>
+    table td {
         padding: .3em;
-       }
-    </style>
+    }
+</style>
 
 
 <body>
@@ -78,12 +78,17 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="game">Game</label></td>
                         <td>:</td>
-                            <td><input type="text" placeholder="isi id game....." value="Genshin Impact"  name="game" id="game" required class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="game" id="game" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Genshin Impact</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="id_game">ID Game</label></td>
                         <td>:</td>
-                        <td><input type="number" placeholder="isi id game....." maxlength="8" name="id_game" id="id_game" required class="form-control"></td>
+                        <td><input type="number" placeholder="isi id game....." name="id_game" maxlength="8" id="id_game" required class="form-control"></td>
                     </tr>
                     <tr>
                         <td><label for="username">Username Game</label></td>
@@ -93,12 +98,22 @@ if (isset($_POST["submit"])) {
                     <tr>
                         <td><label for="jumlah_diamond">Jumlah Diamond</label></td>
                         <td>:</td>
-                        <td><input type="text" placeholder="isi jumlah_diamond..." value="1980"  name="jumlah_diamond" id="jumlah_diamond" require class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="jumlah_diamond" id="jumlah_diamond" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>1980</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="harga">Harga</label></td>
                         <td>:</td>
-                        <td><input type="harga" placeholder="isi harga...."  value="479000" name="harga" id="harga" required class="form-control"></td>
+                        <td>
+                            <select class="form-select" name="harga" id="harga" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>479000</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="tanggal">Tanggal Pembayaran</label></td>
@@ -138,4 +153,4 @@ if (isset($_POST["submit"])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> 
