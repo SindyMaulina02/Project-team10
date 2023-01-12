@@ -247,10 +247,12 @@ h2{
 .footer-section {
     width: 20%;
     margin: 0 auto;
+
 }
 
 .footer-section ul {
     list-style-type: none;
+    
 }
 h3 {
     font-family: 'comic sans ms';
@@ -261,3 +263,4 @@ h3 {
     width: 100%;
     line-height: 50px;
 }
+
