@@ -7,7 +7,6 @@ if (isset($_POST["login"])) {
 
     $username = $_POST["username"];
     $password = $_POST["password"];
-    $email = $_POST["email"];
     $gender = $_POST["jenis_kelamin"];
 
     $result = mysqli_query($connect, "SELECT * FROM users WHERE username_login = '$username'");
@@ -15,7 +14,7 @@ if (isset($_POST["login"])) {
 
 
     //cek username
-    if (mysqli_num_rows($result) === 1 && mysqli_num_rows($result1) === 1) {
+    if (mysqli_num_rows($result) === 1) {
 
         //cek password
         $row = mysqli_fetch_assoc($result);
@@ -141,7 +140,7 @@ if (isset($_POST["login"])) {
                         <td></td>
                         <td></td>
                         <td>
-                            <a href="../index.php" class="btn btn-dark me-5" name="login">Back</a>
+                            <a href="../index.php" class="btn btn-dark me-5">Back</a>
                             <button class="btn btn-success me-5" type="submit" name="login">Login</button>
                         </td>
                     </tr>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <nav id="home">
+    <nav id="home" class="sticky-top">
         <div class="container ">
             <h1><a href="#home">Mobile Game Store</a></h1>
             <div></div>
@@ -31,18 +31,30 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#tentang">Produk</a></li>
                 <li><a href="customer/profile.php">Profile</a></li>
-                <li><a href="contactUs1.php">Contact Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
                 <!-- <button class="btn-login"><a href="login/login.php">Login</a></button> -->
                 <a href="index.php" class="btn btn-danger mt-3 p-2" onclick="return confirm('Yakin ');"><i class="fa-solid fa-backward"></i></a>
             </ul>
         </div>
     </nav>
-    <section id="home">
-        <div class="container_section">
-            <section id="#home" class="image_2">
+    <div id="home">
+        <div class="home">
 
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/game/game.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/game/game3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/game/game2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
     <div id="tentang">
         <div class="tentang">
@@ -327,7 +339,7 @@
         <div id="contact">
             <div class="wrapper">
                 <div class="footer">
-                    <div class="footer-section">
+                    <div class="footer-section text-white">
                         <h3>Mobile Game Store</h3>
                         <p>Mobilegamestore.id adalah Platform webisite top up game termurah, tercepat, dan
                             terpercaya di Indonesia. Proses cepat membuat Anda nyaman Top Up disini. Dengan
@@ -338,17 +350,25 @@
                     <div class="footer-section">
                         <h3>Menu</h3>
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#tentang">Produk</a></li>
-                            <li><a href="http://wa.me/6295379114998">Join reseller</a></li>
-                            <li><a href="#joincomunitas">Join comunitas</a></li>
-                            <li><a href="contactus.html">Contact Us</a></li>
-                            <button class="btn-login"><a href="#tentang">Login</a></button>
+                            <li><a class="text-white" href="#home">Home</a></li>
+                            <li><a class="text-white" href="#tentang">Produk</a></li>
+                            <li><a class="text-white" href="http://wa.me/6295379114998">Join reseller</a></li>
+                            <li><a class="text-white" href="#joincomunitas">Join comunitas</a></li>
+                            <li><a class="text-white" href="contactus.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="footer-section">
-                        <h3>Other Services</h3>
-                        <p></p>
+                        <h3>Partnership</h3>
+                        <ul>
+                            <li><a class="text-white" href="https://www.ulbi.ac.id/">Universitas Logistik dan Bisnis
+                                    Internasional</a></li>
+                            <li><a class="text-white" href="https://if.ulbi.ac.id/">Prodi Teknik Informatika</a></li>
+                            <li><a class="text-white" href="https://www.instagram.com/himatifpoltekpos_/?hl=id">HIMATIF</a></li>
+                            <li><a class="text-white" href="https://www.instagram.com/logic_coffeee/?hl=id">Logic
+                                    Coffee</a></li>
+
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -362,6 +382,9 @@
     </div>
     </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
 </body>
 

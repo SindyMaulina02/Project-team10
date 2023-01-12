@@ -2,7 +2,7 @@
 
 // require '../config/conection.php';
 $connect = mysqli_connect("localhost", "root", "", "topup");
-
+    
 
 function query($query) {
     global $connect;
