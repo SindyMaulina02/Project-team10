@@ -130,6 +130,7 @@
                                             <th>Pembayaran</th>
                                             <th>Tanggal Pembayaran</th>
                                             <th>Aksi</th>
+                                            <th>Alamat</th>
                                         </tr>
                                         <?php $i = 1; ?>
                                         <?php foreach($pengelola as $admin) : ?>
@@ -145,6 +146,7 @@
                                                 <a href="../../action/update/update.php?id=<?= $admin["id"]; ?>"href=""> <i class="fa-solid fa-pen-to-square"></i></a> |
                                                 <a href="../../action/delete/delete.php?id=<?= $admin["id"]; ?>" onclick="return confirm('Yakin nih mau hapus datanya?');"><i class="fa-solid fa-trash text-danger"></i></a>
                                             </td>
+                                            <td><?=  $admin["alamat"]; ?></td>
                                         </tr>
                                         <?php $i++; ?>
                                         <?php endforeach; ?>
